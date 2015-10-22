@@ -1,7 +1,7 @@
-NamedCow extends Cow 
+class NamedCow extends Cow 
 {
   private String myName;
-  public Cow(String type, String name, String sound) 
+  public NamedCow(String type, String name, String sound) 
     {
       myType = type;
       mySound = sound;
